@@ -5,12 +5,12 @@
     id        = "kmrs.mobile.app"
     versionCode = "23"
     version   = "2.3">
-    <name>Karenderia Mobile App</name>
+    <name>zoulak</name>
     <description>
-        Karenderia mobile app version
+        An instant meals on wheels application
     </description>
-    <author email="bastikikang@gmail.com" href="http://cordova.io">
-        bastisapp.com
+    <author email="info@zoulak.com" href="http://cordova.io">
+        info@zoulak.com
     </author>
             
     <content src="index.html" />
@@ -39,8 +39,8 @@
 	<gap:plugin name="cordova-plugin-googlemaps-plus" source="npm" >
        <param name="API_KEY_FOR_ANDROID" value="" />
        <param name="API_KEY_FOR_IOS" value="" />
-       <param name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="Karenderia wants to use your location" />
-       <param name="LOCATION_ALWAYS_USAGE_DESCRIPTION" value="Karenderia want to always use your location" />
+       <param name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="zoulak wants to use your location" />
+       <param name="LOCATION_ALWAYS_USAGE_DESCRIPTION" value="zoulak want to always use your location" />
     </gap:plugin>
     
     <gap:plugin name="cordova-plugin-buildinfo" source="npm" spec="1.1.0"  />
@@ -74,10 +74,10 @@
 
     <platform name="ios">    
 	    <config-file platform="ios" target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-	        <string>Karenderia want to always use your location</string>
+	        <string>zoulak want to always use your location</string>
 	    </config-file>
 	    <config-file platform="ios" target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-	        <string>Karenderia wants to use your location</string>
+	        <string>zoulak wants to use your location</string>
 	    </config-file>
 	</platform>   
 	
